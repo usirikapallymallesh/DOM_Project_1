@@ -1,0 +1,12 @@
+const div = document.querySelector(".container");
+div.style.height = "200px";
+div.style.width = "300px";
+div.style.background = "yellow";
+div.style.margin = "20px";
+div.style.padding = "10px";
+const h1 = document.querySelector(".container>p");
+h1.innerHTML = "Hello, I'm a div!";
+h1.style.fontSize = "18px";
+h1.style.fontWeight = "900";
+console.log(h1.style);
+h1.style.color = "blue";
